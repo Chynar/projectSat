@@ -38,7 +38,7 @@ public class Expedia {
 	  
 	   List<WebElement> carList= expedia.findElements(By.xpath("//div[@class='car-model']"));
 	   Assert.assertEquals(carList, 25);   
-	   
+	   System.out.println(carList);
 	  if(carList.size()==25) {
 		  System.out.println("Great job");
 	  }else {
